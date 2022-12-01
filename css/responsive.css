@@ -1,0 +1,131 @@
+@media(max-width:575.98px){
+    label.logo{
+        width:130px;
+    }
+    #banner .overlay{
+        padding-top: 10px;
+    }
+    .checkbtn{
+        line-height: 20px;
+    }
+    .banner_info h3{
+        font-size: 25px;
+        padding-top: 0;
+        padding-left: 65px;
+    }
+    nav{
+        height:40px
+    }
+    .banner_info h2{
+        font-size: 40px;
+        line-height: 65%;
+    }
+    .banner_info h5{
+        font-size: 18px;
+        width: 300px;
+    }
+    .banner_info .title{
+        line-height: 21px;
+        width: 300px;
+        padding-right: 0;
+        letter-spacing: 0.1em;
+    }
+    .play_area .play{
+        padding: 10px 10px;
+    }
+    .play_area .play i{
+        font-size: 20px;
+    }
+    .play_area .play p{
+        font-size: 20px;
+    }
+    .play_area .more_info p{
+        font-size: 20px;
+    }
+    .play_area .more_info{
+        padding:0px 10px;
+    }
+    .my_slider{
+        padding-top: 30px;
+    }
+    #quality{
+        padding: 30px 0;
+    }
+    .quality_section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .quality_right img{
+        min-width:250px;
+    }
+    .quality_right {
+        padding-left: 25px;
+    }
+    #quality .quality_left h3{
+        font-size: 30px;
+        padding: 15px 0;
+        width: 300px;
+        line-height: 100%;
+    }
+    #quality .quality_left p{
+        width: 300px;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1155px){
+
+    nav ul li a{
+        font-size: 18px;
+
+    }
+    .checkbtn{
+        display: block;
+        
+    }
+    nav ul{
+        position: absolute;
+        width: 250px;
+        height: 640px;
+        background: rgba(36, 75, 73, 0.9 );
+        top: 110px;
+        left: -100%;
+        text-align: center;
+        transition: all linear .5s;
+    }
+    nav ul li{
+        display: block;
+        line-height: 40px;
+    }
+  
+    nav ul li a:hover,a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+ }
+ 
